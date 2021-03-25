@@ -21,7 +21,12 @@ namespace Koleksiyonlar
             isimler2.Add("ilker");
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
-
+            Console.WriteLine("--------------");
+            List<string> isimler3 = new List<string> { "ayşe","fatma","betül","gamze"};
+            Console.WriteLine(isimler3[0]);
+            Console.WriteLine(isimler3[3]);
+            isimler3.Add("huriye");
+            Console.WriteLine(isimler3[4]);
         }
     }
 }
